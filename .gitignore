@@ -1,0 +1,23 @@
+ 
+# Variáveis de ambiente para a aplicação
+.env
+.venv
+# O arquivo .env é usado para armazenar variáveis de ambiente, como chaves de API, senhas, etc. Ele não deve ser versionado para evitar expor informações sensíveis.
+ 
+# Exemplo:
+# API_KEY=your_api_key_here     
+# OUTRA_VARIAVEL=valor
+
+__pycache__/
+# Diretório de cache do Python, geralmente não é necessário versionar
+*.pyc
+# Arquivos de bytecode do Python, gerados automaticamente
+.ipynb_checkpoints/
+# Diretório de checkpoints do Jupyter Notebook, gerado automaticamente
+.vscode/
+# Configurações específicas do Visual Studio Code, geralmente não é necessário versionar
+.DS_Store
+# Arquivo gerado pelo macOS para armazenar atributos personalizados de arquivos e pastas, geralmente não é necessário versionar
+
+# Adicione outros arquivos ou diretórios que você deseja ignorar aqui
+
